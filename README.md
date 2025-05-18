@@ -1,0 +1,1 @@
+# nyari_tabor_foglalo
