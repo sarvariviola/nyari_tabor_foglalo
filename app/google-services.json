@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95266510806",
+    "project_id": "nyaritabor-fc484",
+    "storage_bucket": "nyaritabor-fc484.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95266510806:android:d20cbe7855eca15f68f677",
+        "android_client_info": {
+          "package_name": "com.example.nyaritabor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95266510806-an5b53usbh23ok7vnnotv2qb9dbldvp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyaritabor",
+            "certificate_hash": "e9beb9619aff45d8e7827384fcac83db69fb2788"
+          }
+        },
+        {
+          "client_id": "95266510806-uirnbrq4a7gve3r9m21ot8ki31imbbd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ulOZItrt9fqcsO5SmK2Zcxg_EnmiCCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95266510806-uirnbrq4a7gve3r9m21ot8ki31imbbd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

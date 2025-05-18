@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_bar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/about_menu"
+        android:title="Névjegy"
+        android:icon="@drawable/about"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/add_camp"
+        android:title="Új tábor létrehozása"
+        android:icon="@drawable/add"
+        app:showAsAction="always"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/query1"
+        android:title="Budapesti táborok"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/query4"
+        android:title="Szegedi táborok"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/query2"
+        android:title="100 euró alatti táborok"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/query3"
+        android:title="Legjobb értékelésű táborok"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/log_out_button"
+        app:showAsAction="never"
+        android:orderInCategory="4"
+        android:title="Kijelentkezés" />
+
+
+</menu>

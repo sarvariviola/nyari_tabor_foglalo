@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">Nyaritabor</string>
+    <string name="name">Név</string>
+    <string name="full_name">Teljes név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="registration">Regisztráció</string>
+    <string name="username">Felhasználónév</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Lakcím</string>
+    <string name="parent">Szülő</string>
+    <string name="camper">Táborozó</string>
+    <string name="product_description">Termék leírás</string>
+    <string name="login_as_guest">Bejelentkezés vendégként</string>
+    <string name="login_with_google">Bejelentkezés Google-fiókkal</string>
+    <string name="birth_date">Táborozó születési éve</string>
+    <string name="default_web_client_id">default_web_client_id</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Here is some news</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor diam fringilla tellus, eu euismod mauris neque at neque.</string>
+    <string name="example_email">pl. balatonitabor@gmail.com</string>
+    <string name="example_password">********</string>
+    <string name="time_to_reg">Nincs fiókja? Regisztráljon!</string>
+    <string name="price">price\n</string>
+    <string name="delete">Törlés</string>
+
+
+    <string-array name="phone_modes">
+        <item>Telefonszám típusa</item>
+        <item>Mobil</item>
+        <item>Munkahelyi</item>
+        <item>Otthoni</item>
+    </string-array>
+
+    <string-array name="camp_item_names">
+        <item>Kalandozók Tábora</item>
+        <item>Napsugár Tábor</item>
+        <item>Kockák Nyara</item>
+        <item>Természetjáró Tábor</item>
+        <item>Kreatív Műhely</item>
+        <item>Túlélők Tábora</item>
+        <item>Vízi Kalandtábor</item>
+        <item>Csillagvadász Tábor</item>
+        <item>Lovas Élménytábor</item>
+        <item>Angol Tábor</item>
+
+        <!-- Újak: -->
+        <item>Sportolók Tábor</item>
+        <item>Művészeti Fesztivál</item>
+        <item>Tech Ifjak</item>
+        <item>Gasztro Kaland</item>
+        <item>Fotós Tábor</item>
+        <item>Könyvmoly Klub</item>
+        <item>Robotika Műhely</item>
+        <item>Vízparti Élmény</item>
+        <item>Drámás Színjátszó</item>
+        <item>Hegymászó Tábor</item>
+    </string-array>
+
+    <string-array name="camp_item_desc">
+        <item>Izgalmas kalandok, erdei túrák és csapatjátékok várnak rád a Kalandozók Táborában!</item>
+        <item>Süt a nap, jó a hangulat – a Napsugár Táborban garantált a nyári élmény!</item>
+        <item>Programozás, robotika, játékfejlesztés – a Kockák Nyara tábor a jövő techzsenijeinek!</item>
+        <item>Barangold be a természetet, fedezd fel az erdők titkait a Természetjáró Táborban!</item>
+        <item>Fess, rajzolj, barkácsolj és alkoss – a Kreatív Műhelyben bármi lehet belőled!</item>
+        <item>Sátrazás, túlélési technikák, kalandjátékok – csak a bátraknak!</item>
+        <item>Úszás, evezés és vízi játékok minden mennyiségben a Vízi Kalandtáborban!</item>
+        <item>Éjszakai távcsöves megfigyelések, űrkutatás és sok-sok csillag – vár a Csillagvadász Tábor!</item>
+        <item>Lovaglás, istállómunka és természetközeli élmények – a Lovas Élménytáborban!</item>
+        <item>Játékos nyelvtanulás, anyanyelvi tanárok és nemzetközi hangulat az Angol Táborban!</item>
+
+        <!-- Újak: -->
+        <item>Foci, kosárlabda, atlétika és sok más sportág egy helyen – a Sportolók Táborában!</item>
+        <item>Festészet, szobrászat és kézműves műhelyek minden nap – a Művészeti Fesztivál!</item>
+        <item>Kódolás, 3D nyomtatás és kreatív technológiai workshopok várnak!</item>
+        <item>Kóstolj, főzz és alkoss új recepteket – gasztronómiai élményekkel!</item>
+        <item>Tanuld meg a profi fotózás alapjait, és készíts csodás képeket a természetben!</item>
+        <item>Olvasóklub, könyvviták és kreatív írás – a Könyvmoly Klubban!</item>
+        <item>Robotépítés és programozás kezdőknek és haladóknak egyaránt!</item>
+        <item>Vízparti strandolás, kajakozás és tábori bulik – felejthetetlen élmény!</item>
+        <item>Színjátszás, improvizáció és drámajátékok a legjobb tanárokkal!</item>
+        <item>Hegymászás, túrák és kempingezés a hegyek között – a Hegymászó Táborban!</item>
+    </string-array>
+
+    <string-array name="camp_item_prices">
+        <item>120</item>
+        <item>95</item>
+        <item>50</item>
+        <item>130</item>
+        <item>110</item>
+        <item>160</item>
+        <item>125</item>
+        <item>170</item>
+        <item>115</item>
+        <item>140</item>
+
+        <!-- Újak: -->
+        <item>100</item>
+        <item>150</item>
+        <item>80</item>
+        <item>90</item>
+        <item>70</item>
+        <item>60</item>
+        <item>110</item>
+        <item>130</item>
+        <item>85</item>
+        <item>120</item>
+    </string-array>
+
+    <string-array name="camp_item_age_groups">
+        <item>8–12</item>
+        <item>10–14</item>
+        <item>13–17</item>
+        <item>10–14</item>
+        <item>7–11</item>
+        <item>14–18</item>
+        <item>9–13</item>
+        <item>15–19</item>
+        <item>8–12</item>
+        <item>12–16</item>
+
+        <!-- Újak: -->
+        <item>9–13</item>
+        <item>11–15</item>
+        <item>13–18</item>
+        <item>10–14</item>
+        <item>12–16</item>
+        <item>8–12</item>
+        <item>14–18</item>
+        <item>10–14</item>
+        <item>12–16</item>
+        <item>13–17</item>
+    </string-array>
+
+    <string-array name="camp_item_date">
+        <item>2025. június 17. – június 23.</item>
+        <item>2025. július 1. – július 4.</item>
+        <item>2025. június 24. – július 5.</item>
+        <item>2025. augusztus 12. – augusztus 14.</item>
+        <item>2025. július 10. – július 17.</item>
+        <item>2025. augusztus 1. – augusztus 5.</item>
+        <item>2025. június 28. – július 11.</item>
+        <item>2025. július 15. – július 19.</item>
+        <item>2025. június 20. – június 26.</item>
+        <item>2025. augusztus 5. – augusztus 8.</item>
+
+        <!-- Újak: -->
+        <item>2025. július 20. – július 26.</item>
+        <item>2025. július 28. – augusztus 3.</item>
+        <item>2025. augusztus 10. – augusztus 17.</item>
+        <item>2025. június 30. – július 6.</item>
+        <item>2025. július 5. – július 12.</item>
+        <item>2025. július 15. – július 22.</item>
+        <item>2025. július 25. – július 31.</item>
+        <item>2025. július 1. – július 7.</item>
+        <item>2025. július 18. – július 24.</item>
+        <item>2025. július 3. – július 9.</item>
+    </string-array>
+
+    <string-array name="camp_item_locations">
+        <item>Budapest</item>
+        <item>Szeged</item>
+        <item>Bécs</item>
+        <item>Prága</item>
+        <item>Pozsony</item>
+        <item>Zágráb</item>
+        <item>Varsó</item>
+        <item>Budapest</item>
+        <item>Szeged</item>
+        <item>Bécs</item>
+        <item>Újvidék</item>
+        <item>Szeged</item>
+        <item>Bratislava</item>
+        <item>Szeged</item>
+        <item>Eger</item>
+        <item>Veszprém</item>
+        <item>Székesfehérvár</item>
+        <item>Budapest</item>
+        <item>Miskolc</item>
+        <item>Szeged</item>
+    </string-array>
+
+    <array name="camp_item_images">
+        <item>@drawable/budapest</item>
+        <item>@drawable/szeged</item>
+        <item>@drawable/becs</item>
+        <item>@drawable/praga</item>
+        <item>@drawable/praga</item>
+        <item>@drawable/zagrab</item>
+        <item>@drawable/budapest</item>
+        <item>@drawable/becs</item>
+        <item>@drawable/szeged</item>
+        <item>@drawable/miskolc</item>
+        <item>@drawable/ujvidek</item>
+        <item>@drawable/szeged</item>
+        <item>@drawable/veszprem</item>
+        <item>@drawable/eger</item>
+        <item>@drawable/szeged</item>
+        <item>@drawable/szekesfeh</item>
+        <item>@drawable/pecs</item>
+        <item>@drawable/szekesfeh</item>
+        <item>@drawable/miskolc</item>
+        <item>@drawable/szeged</item>
+    </array>
+
+    <array name="camp_item_rates">
+        <item>4.2</item>
+        <item>3.8</item>
+        <item>4.9</item>
+        <item>2.7</item>
+        <item>4.5</item>
+        <item>2.0</item>
+        <item>5.0</item>
+        <item>3.2</item>
+        <item>4.7</item>
+        <item>4.1</item>
+
+        <!-- Újak: -->
+        <item>4.0</item>
+        <item>4.6</item>
+        <item>4.8</item>
+        <item>3.9</item>
+        <item>4.3</item>
+        <item>3.7</item>
+        <item>4.5</item>
+        <item>4.1</item>
+        <item>3.8</item>
+        <item>4.4</item>
+    </array>
+
+</resources>
